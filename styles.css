@@ -1,3 +1,11 @@
+@import "./css_bem/header.css";
+@import "./css_bem/main.css";
+@import "./css_bem/button.css";
+
+
 * {
+    margin-top: 0px;
+    padding: 0;
     box-sizing: border-box;
 }
+

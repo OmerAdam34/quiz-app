@@ -1,0 +1,10 @@
+.main__button--show {
+    color: green;
+    width: 5rem;
+    height: 2.1rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 5px;
+}
