@@ -1,10 +1,11 @@
 .main__button--show {
-    color: green;
+    color: whitesmoke;
     width: 5rem;
-    height: 2.1rem;
+    height: 3rem;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: transparent;
+    background-color: #303030;
+    border: 2.5px solid #303030;
     border-radius: 5px;
 }
