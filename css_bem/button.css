@@ -6,6 +6,22 @@
     font-weight: bold;
     text-transform: uppercase;
     background-color: #303030;
-    border: 2.5px solid #303030;
     border-radius: 5px;
+}
+
+.article__button--tags {
+    color: white;
+    width: 16rem;
+    height: 2.25rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+    text-transform: lowercase;
+    background-color: #3C7F9C;
+    border-radius: 5px;
+}
+
+.nav__flexbox--button {
+    background-color: transparent;
+    border: none;
 }

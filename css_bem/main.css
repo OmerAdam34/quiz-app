@@ -1,3 +1,8 @@
+.main__section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .main__flexbox {
     margin-top: 20px;
     margin-left: 20px;
@@ -12,23 +17,35 @@
     font-family: 'Anton', sans-serif;
 }
 
+.main__flexbox--question {
+    _background-color: red;
+    margin-bottom: 0;
+    margin: 10px;
+}
+
 .main__flexbox--section {
-    -background-color: aquamarine;
-    font-size: 1.5rem;
+    _background-color: aquamarine;
+    font-size: 1.3rem;
     text-align: center;
     color: #303030;
     padding: 7px;
-    
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    flex-wrap: wrap;
 
 }
 
-.main__section {
-    margin-top: 100px;
+.article__flexbox {
+    _background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
 }
-
