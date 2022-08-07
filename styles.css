@@ -4,6 +4,7 @@
 @import "./css_bem/footer.css";
 @import "./css_bem/svg.css";
 @import "./css_bem/mediaquery.css";
+@import "./css_bem/question-card.css";
 
 * {
     box-sizing: border-box;
