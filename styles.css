@@ -2,6 +2,8 @@
 @import "./css_bem/main.css";
 @import "./css_bem/button.css";
 @import "./css_bem/footer.css";
+@import "./css_bem/svg.css";
+@import "./css_bem/mediaquery.css";
 
 * {
     box-sizing: border-box;

@@ -1,0 +1,18 @@
+
+.main__section--bookmark {
+    position: absolute;
+    left: 80%;
+    bottom: 80%;
+}
+
+.main__section--bookmark2 {
+    position: absolute;
+    left: 80%;
+    bottom: 23.5%;
+}
+
+.main__section--bookmark3 {
+    position: absolute;
+    left: 80%;
+    bottom: -220px;
+}
