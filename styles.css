@@ -5,10 +5,5 @@
 @import "./css_bem/svg.css";
 @import "./css_bem/mediaquery.css";
 @import "./css_bem/question-card.css";
-
-* {
-    box-sizing: border-box;
-    margin-top: 0px;
-    padding: 0;
-}
-
+@import "./css_bem/personalpage-flexbox.css";
+@import "./css_bem/universal.css";
