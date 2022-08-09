@@ -1,18 +1,24 @@
 
 .main__section--bookmark {
     position: absolute;
-    left: 80%;
-    bottom: 80%;
+    top: -18px;
+    right: 0;
+    stroke-width: 1.5;
+    stroke: #303030;
 }
 
 .main__section--bookmark2 {
     position: absolute;
-    left: 80%;
-    bottom: 23.5%;
+    top: -18px;
+    right: 0;
+    stroke-width: 1.5;
+    stroke: #303030;
 }
 
 .main__section--bookmark3 {
     position: absolute;
-    left: 80%;
-    bottom: -220px;
+    top: -18px;
+    right: 0;
+    stroke-width: 1.5;
+    stroke: #303030;
 }

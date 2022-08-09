@@ -4,12 +4,13 @@
     margin-right: 20px;
     margin-bottom: 40px;
     padding: 5px;
-    border: 4px solid #292826;
+    border: 4px solid #303030;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     font-family: 'Anton', sans-serif;
+    position: relative;
 }
 
 .main__flexbox--question {
