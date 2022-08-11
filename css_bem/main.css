@@ -43,3 +43,7 @@
     flex-wrap: wrap;
     gap: 5px;
 }
+
+.hidden {
+    display: none;
+}
