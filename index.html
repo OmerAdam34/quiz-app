@@ -25,8 +25,8 @@
 
         <section class="main__flexbox">
 
-            <a href="https://google.de">
-                <svg class="main__section--bookmark" style="width:50px;height:50px" viewBox="0 0 24 24">
+            <a href="">
+                <svg class="main__section--bookmark" data-page="bookmark1" style="width:50px;height:50px" viewBox="0 0 24 24">
                     <path fill="#F9D342" d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
                 </svg>
             </a>
@@ -110,7 +110,6 @@
             </article>
         </section>
 
-
         <section class="main__flexbox">
 
             <a href="https://google.de">
@@ -120,9 +119,36 @@
             </a>
 
             <article class="main__flexbox--section" data-js="testCard2">
-                <p class="main__flexbox--question">What element do we use to group elements that schould appear at the top of the webpage?</p>
+                <p class="main__flexbox--question">What is the default flex-basis value?</p>
                 <button class="main__button--show" type="submit" data-js="button">SHOW ANSWER</button>
-                <p class="hidden" data-js="answer">header</p>
+                <p class="hidden" data-js="answer">auto</p>
+            </article>
+
+            <article class="article__flexbox">
+                <button class="article__button--tags" type="submit">#html</button>
+                <button class="article__button--tags" type="submit">#flexbox</button>
+                <button class="article__button--tags" type="submit">#css</button>
+            </article>
+        </section>
+    </main>
+
+    <!---------- MAIN AREA BOOKMARK ---------->
+
+    <main class="main__section">
+
+        <section class="main__flexbox">
+
+            <a href="">
+                <svg class="main__section--bookmark" data-page="bookmark1" style="width:50px;height:50px" viewBox="0 0 24 24">
+                    <path fill="#F9D342" d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
+                </svg>
+            </a>
+
+            <article class="main__flexbox--section" data-js="flexbox-card">
+                <p class="main__flexbox--question" >What proberty flips the axes in flexbox? </p>
+                <!-- <a href="./bookmarks.html"> -->
+                <button class="main__button--show button" type="submit" data-js="button">SHOW ANSWER</button>
+                <p class="hidden" data-js="answer">flex-direction</p>
             </article>
 
             <article class="article__flexbox">
@@ -132,6 +158,93 @@
             </article>
         </section>
 
+        <section class="main__flexbox">
+
+            <a href="https://google.de">
+                <svg class="main__section--bookmark2" style="width:50px;height:50px" viewBox="0 0 24 24">
+                    <path fill="#F9D342" d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
+                </svg>
+            </a>
+
+            <article class="main__flexbox--section" data-js="footer-card">
+                <p class="main__flexbox--question">What element do we use to group elements that should appear at the bottom of the webpage?</p>                
+                <button class="main__button--show" type="submit" data-js="button">SHOW ANSWER</button>
+                <p class="hidden" data-js="answer">footer</p>
+            </article>
+
+            <article class="article__flexbox">
+                <button class="article__button--tags" type="submit">#html</button>
+                <button class="article__button--tags" type="submit">#flexbox</button>
+                <button class="article__button--tags" type="submit">#css</button>
+            </article>
+        </section>
+
+    <!---------- CREATE PAGE ---------->
+
+    
+    <section>
+        <p>add your question</p>
+        <input type="text">
+    </section>
+
+    <section>
+        <p>add yout answer</p>
+        <input type="text">
+    </section>
+
+    <section>
+        <article class="article__flexbox">
+            <button class="article__button--tags" type="submit">#html</button>
+            <button class="article__button--tags" type="submit">#flexbox</button>
+            <button class="article__button--tags" type="submit">#css</button>
+        </article>
+    </section>
+
+    <button type="submit">submit</button>
+
+    <!---------- PROFILE PAGE ---------->
+
+    <main class="main__section--profile">
+
+        <section class="section__flexbox--profile">
+            <div>
+                <svg style="width:120px;height:120px" viewBox="0 0 24 24">
+                    <path fill="#303030" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7.07,18.28C7.5,17.38 10.12,16.5 12,16.5C13.88,16.5 16.5,17.38 16.93,18.28C15.57,19.36 13.86,20 12,20C10.14,20 8.43,19.36 7.07,18.28M18.36,16.83C16.93,15.09 13.46,14.5 12,14.5C10.54,14.5 7.07,15.09 5.64,16.83C4.62,15.5 4,13.82 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,13.82 19.38,15.5 18.36,16.83M12,6C10.06,6 8.5,7.56 8.5,9.5C8.5,11.44 10.06,13 12,13C13.94,13 15.5,11.44 15.5,9.5C15.5,7.56 13.94,6 12,6M12,11A1.5,1.5 0 0,1 10.5,9.5A1.5,1.5 0 0,1 12,8A1.5,1.5 0 0,1 13.5,9.5A1.5,1.5 0 0,1 12,11Z" />
+                </svg>
+            </div>
+            
+            <div>
+                <p>Max Doe</p>
+            </div>
+        </section>
+            <input class="main__section--button" type="file" alt="Profile Picture">
+
+        <section class="section__flexbox--aboutme">
+            <h2>About me</h2>
+            <summary>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur repudiandae 
+                minus ipsa repellat officia accusamus ducimus. Quaerat, doloremque dolorum.</p>
+            </summary>
+
+            <article>
+                <div class="article__svg">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#303030" d="M18,15H6L2,19V3A1,1 0 0,1 3,2H18A1,1 0 0,1 19,3V14A1,1 0 0,1 18,15M23,9V23L19,19H8A1,1 0 0,1 7,18V17H21V8H22A1,1 0 0,1 23,9M8.19,4C7.32,4 6.62,4.2 6.08,4.59C5.56,5 5.3,5.57 5.31,6.36L5.32,6.39H7.25C7.26,6.09 7.35,5.86 7.53,5.7C7.71,5.55 7.93,5.47 8.19,5.47C8.5,5.47 8.76,5.57 8.94,5.75C9.12,5.94 9.2,6.2 9.2,6.5C9.2,6.82 9.13,7.09 8.97,7.32C8.83,7.55 8.62,7.75 8.36,7.91C7.85,8.25 7.5,8.55 7.31,8.82C7.11,9.08 7,9.5 7,10H9C9,9.69 9.04,9.44 9.13,9.26C9.22,9.08 9.39,8.9 9.64,8.74C10.09,8.5 10.46,8.21 10.75,7.81C11.04,7.41 11.19,7 11.19,6.5C11.19,5.74 10.92,5.13 10.38,4.68C9.85,4.23 9.12,4 8.19,4M7,11V13H9V11H7M13,13H15V11H13V13M13,4V10H15V4H13Z" />
+                        </svg>
+                    <p data-target="400">0</p>
+                </div>
+
+                <div class="article__svg">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#303030" d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
+                        </svg>
+                    <p data-target="400">0</p>
+                </div>
+            </article>
+
+        <section class="section__settings">
+            <h3>Settings</h3>
+            <p>Dark Mode</p> 
+        </section>
 
     </main>
 

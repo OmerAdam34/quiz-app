@@ -1,4 +1,5 @@
 import card from "./card.js";
+import bookmark from "./bookmark.js";
 
 const flexboxCard = document.querySelector('[data-js="flexbox-card"]');
 const footerCard = document.querySelector('[data-js="footer-card"]');
