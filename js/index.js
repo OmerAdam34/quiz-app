@@ -1,5 +1,5 @@
 import card from "./card.js";
-import bookmark from "./bookmark.js";
+import navigation from "./navigation.js";
 
 const flexboxCard = document.querySelector('[data-js="flexbox-card"]');
 const footerCard = document.querySelector('[data-js="footer-card"]');
@@ -12,3 +12,17 @@ card(footerCard);
 card(headerCard);
 card(testCard_1);
 card(testCard_2);
+
+// BOOKMARK COLOR
+
+const btn = document.querySelector('[data-js="bookmarkBtn"]');
+
+btn.addEventListener("click", () => {
+  btn.classList.toggle;
+
+  if (btn.classList.toggle("click")) {
+    btn.style.backgroundColor = "yellow";
+  } else {
+    btn.style.backgroundColor = "transparent";
+  }
+});

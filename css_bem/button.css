@@ -1,33 +1,62 @@
 .main__button--show {
-    color: whitesmoke;
-    width: 5rem;
-    height: 3rem;
-    font-family: 'Anton', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: #303030;
-    border-radius: 5px;
-    margin-top: 10px;
+  color: whitesmoke;
+  width: 5rem;
+  height: 3rem;
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #303030;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
 .article__button--tags {
-    color: white;
-    width: 16rem;
-    height: 2.25rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    font-family: 'Anton', sans-serif;
-    text-transform: lowercase;
-    background-color: #3C7F9C;
-    border-radius: 5px;
-}
-
-.nav__flexbox--button {
-    background-color: transparent;
-    border: none;
+  color: white;
+  width: 16rem;
+  height: 2.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "Anton", sans-serif;
+  text-transform: lowercase;
+  background-color: #3c7f9c;
+  border-radius: 5px;
 }
 
 .main__section--button {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
+.footer__svg {
+  background-color: transparent;
+  border: transparent;
+}
+
+.main__section--bookmark {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  stroke-width: 1.5;
+  stroke: #303030;
+  background-color: transparent;
+  border: none;
+}
+
+.main__section--bookmark2 {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  stroke-width: 1.5;
+  stroke: #303030;
+  background-color: transparent;
+  border: none;
+}
+
+.main__section--bookmark3 {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  stroke-width: 1.5;
+  stroke: #303030;
+  background-color: transparent;
+  border: none;
+}

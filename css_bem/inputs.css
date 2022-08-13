@@ -1,0 +1,49 @@
+.section__flexbox--create {
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+  gap: 5px;
+}
+
+.section__input {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 150px;
+  border: 2px solid #303030;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.article__tags {
+  padding-top: 10px;
+  text-align: center;
+  width: 320px;
+  height: 50px;
+  border: 2px solid #303030;
+  border-radius: 10px;
+}
+
+.button__tag {
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+  color: #3c7f9c;
+  text-align: start;
+  padding-left: 10px;
+}
+
+.section__button--create {
+  color: white;
+  width: 10rem;
+  height: 2.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "Anton", sans-serif;
+  background-color: #3c7f9c;
+  border-radius: 5px;
+}

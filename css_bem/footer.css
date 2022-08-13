@@ -1,28 +1,24 @@
 body {
-    margin: 100px 0 0 0;
-    padding: 0 0 65px 0;
+  margin: 100px 0 0 0;
+  padding: 0 0 65px 0;
 }
 
 .footer {
-    background-color: #303030;
-    width: 100%;
-    height: 90px;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    position: fixed;
-    top: 93.5%;
-
-
+  background-color: #303030;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: fixed;
+  top: 93.5%;
 }
 
 .nav__flexbox {
-    _padding: 12px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    list-style-type: none;
-
+  _padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
-

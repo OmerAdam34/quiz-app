@@ -1,38 +1,38 @@
 .main__section--profile {
-    font-family: 'Anton', sans-serif;
-    color: #303030;
-    margin-left: 20px;
-    margin-right: 20px;
+  font-family: "Anton", sans-serif;
+  color: #303030;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .section__flexbox--profile {
-    margin-top: 120px;
-    font-family: 'Anton', sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  margin-top: 120px;
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section__flexbox--aboutme {
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: absolute;
-    left: 10%;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 10%;
 }
 
 .article__svg {
-    margin-top: 30px;
-    _margin-bottom: 0;
-    padding-left: 12.5%;
-    display: inline-block;
+  margin-top: 30px;
+  _margin-bottom: 0;
+  padding-left: 12.5%;
+  display: inline-block;
 }
 
 .section__settings {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
