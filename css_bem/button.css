@@ -22,13 +22,14 @@
   border-radius: 5px;
 }
 
-.main__section--button {
-  margin-left: 20px;
-}
-
 .footer__svg {
   background-color: transparent;
   border: transparent;
+}
+
+.footer__svg:active {
+  stroke-width: 1.5;
+  stroke: #f9d342;
 }
 
 .main__section--bookmark {

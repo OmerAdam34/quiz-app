@@ -1,10 +1,9 @@
 @import "./css_bem/header.css";
 @import "./css_bem/main.css";
-@import "./css_bem/button.css";
-@import "./css_bem/footer.css";
-@import "./css_bem/svg.css";
-@import "./css_bem/mediaquery.css";
 @import "./css_bem/question-card.css";
+@import "./css_bem/button.css";
 @import "./css_bem/personalpage-flexbox.css";
-@import "./css_bem/universal.css";
+@import "./css_bem/svg.css";
 @import "./css_bem/inputs.css";
+@import "./css_bem/footer.css";
+@import "./css_bem/universal.css";
