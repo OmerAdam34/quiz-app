@@ -1,4 +1,4 @@
-export default function bookmark() {
+export default function singlePage() {
   const buttonHome = document.querySelector('[data-nav="home"]');
   const buttonBookmark = document.querySelector('[data-nav="bookmark"]');
   const buttonCreate = document.querySelector('[data-nav="create"]');

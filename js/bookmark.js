@@ -1,4 +1,4 @@
-export default function singlePage() {
+export default function bookmark() {
   const btn = document.querySelector('[data-js="bookmarkBtn"]');
 
   btn.addEventListener("click", () => {

@@ -27,9 +27,8 @@
   border: transparent;
 }
 
-.footer__svg:active {
-  stroke-width: 1.5;
-  stroke: #f9d342;
+.footer__svg:focus {
+  background: #3c7f9c;
 }
 
 .main__section--bookmark {
