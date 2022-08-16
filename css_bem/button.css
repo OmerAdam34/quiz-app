@@ -60,3 +60,7 @@
   background-color: transparent;
   border: none;
 }
+
+.bookmarkButton--active {
+  stroke: #3c7f9c;
+}
