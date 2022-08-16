@@ -2,6 +2,7 @@ import singlePage from "./bookmark.js";
 import card from "./card.js";
 import pageNames from "./page-names.js";
 import bookmark from "./single-page.js";
+import form from "./form.js";
 
 const flexboxCard = document.querySelector('[data-js="flexbox-card"]');
 const footerCard = document.querySelector('[data-js="footer-card"]');
@@ -20,3 +21,5 @@ singlePage();
 pageNames();
 
 bookmark();
+
+form();

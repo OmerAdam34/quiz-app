@@ -170,26 +170,29 @@
     <!---------- CREATE PAGE ---------->
 
     <main class="section__flexbox--create page page--create hidden" data-page="create">
-        <section>
-            <label for="question">ADD YOUR QUESTION</label>
-            <input class="section__input" type="text" id="question" placeholder="TIPP HERE"/>
-        </section>
+        <form data-js="form">
+            <section>
+                <label for="question">ADD YOUR QUESTION</label>
+                <input class="section__input" name="question" type="text" id="question" placeholder="TIPP HERE"/>
+            </section>
 
-        <section>
-            <label class="section__label" for="answer">ADD YOUR ANSWER</label>
-            <input class="section__input" id="answer" type="text" placeholder="TIPP HERE"/>
-        </section>
+            <section>
+                <label class="section__label" for="answer">ADD YOUR ANSWER</label>
+                <input class="section__input" name="answer" id="answer" type="text" placeholder="TIPP HERE"/>
+            </section>
 
-        <section>
-            <h3 class="section__flexbox--create">TAGS</h3>
-            <article class="article__tags">
-                <p class="button__tag"> #html, #flexbox, #css </p>
-            </article>
-        </section>
+            <section>
+                <h3 class="section__flexbox--create">TAGS</h3>
+                <article class="article__tags">
+                    <p class="button__tag"> #html, #flexbox, #css </p>
+                </article>
+            </section>
+        
     
-        <section>
-            <button class="section__button--create" type="submit">SUBMIT</button>
-        </section>
+            <section>
+                <button class="section__button--create" type="submit">SUBMIT</button>
+            </section>
+        </form>
     </main>
     <!---------- PROFILE PAGE ---------->
 
