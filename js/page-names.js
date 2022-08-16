@@ -4,6 +4,7 @@ export default function pageNames() {
   const buttonProfile = document.querySelector('[data-nav="profile"]');
   const buttonHome = document.querySelector('[data-nav="home"]');
   let paragraph = document.querySelector('[data-js="h1"]');
+  const pageHome = document.querySelector('[data-page="home"]');
 
   buttonCreate.addEventListener("click", () => {
     paragraph.textContent = "CREATE";
