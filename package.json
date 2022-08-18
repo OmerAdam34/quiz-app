@@ -1,0 +1,22 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "quiz-app to practice javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmerAdam34/quiz-app.git"
+  },
+  "author": "Omer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmerAdam34/quiz-app/issues"
+  },
+  "homepage": "https://github.com/OmerAdam34/quiz-app#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
